@@ -96,7 +96,7 @@ Each folder contains:
 
 - **Name:** [Rishidharan.V]
 - **Location:** [Chennai, TamilNadu]
-- **GitHub:** [github.com/Rishidharan](https://github.com/Rishidharan)
+- **GitHub:** [github.com/Rishidharan-V]((https://github.com/Rishidharan-V))
 - **Learning Track:** Full Stack Web Development (HTML → CSS → Boostrap → Java Script → React Python → Django → Git & Github)
 
 ---
