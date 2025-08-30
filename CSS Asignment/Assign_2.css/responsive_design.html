@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Responsive design for media quries</title>
+    <style>
+      .design {
+        text-align: center;
+        background-color: green;
+        color: white;
+        padding: 70px;
+        border-radius: 10px;
+        font-weight: bold;
+        height: 100px;
+      }
+/* max-width using mobile view font size */
+      @media screen and (max-width: 600px) {
+        .design {
+          font-size: 1.5vh;
+        }
+      }
+/* min-width using desktop view font size */
+      @media screen and (min-width: 768px) {
+        .design {
+          font-size: 1rem;
+        }
+      }
+    </style>
+  </head>
+  <body>
+    <div class="design">
+      <h1>Welcome to Responsive Design</h1>
+      <p>
+        Improvve usability and acessability across the devices ensure content
+        and usable without zooming and scrollimg
+      </p>
+    </div>
+  </body>
+</html>

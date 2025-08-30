@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Trnsformations</title>
+    <style>
+        .rotate{
+           
+            width: 100px;
+            margin: 10px 0 0 460px;
+            padding: 20px;
+            border: 1px solid black;
+            background-color: yellowgreen;
+            border-radius: 10px; 
+            float: left;
+            
+               
+        }
+        .icon{
+            text-align: center;
+            font-size:x-large ;
+        }
+        .root{
+            text-align: center;
+            color: aliceblue;
+        }
+        .rotate:hover{
+            transform: rotate(90deg);
+            
+        }
+        .scale{
+            width: 100px;
+            margin: 10px 0 0 30px ;
+            padding: 50px;
+            border: 1px solid black;
+            background-color: yellowgreen;
+            border-radius: 10px; 
+            float: left;
+            transform: scale(1); 
+        }
+        
+        .translate{
+            width: 100px;
+            margin: 10px 0 0 30px;
+            padding: 20px;
+            border: 1px solid black;
+            background-color: yellowgreen;
+            border-radius: 10px; 
+            float: left;
+            
+        }
+        .skew{
+            width: 100px;
+            margin: 10px 0 0 30px;
+            padding: 20px;
+            border: 1px solid black;
+            background-color: yellowgreen;
+            border-radius: 10px;    
+            float: left;
+        }
+        .scale:hover{
+            transform: scale(.3);
+            transition: transform 0.5s;
+        }
+        .head{
+           text-align: center;
+           color: red;
+
+        }
+        .skew:hover{
+            transform: scale(1.5);
+            transform: skewx(35deg);
+        }
+        .translate:hover{
+            transform: translate(50px); 
+            transition: transform 0.1s
+
+        }
+        
+       
+
+    </style>
+</head>
+<body>
+    <div class="head">
+        <h1 class="topic">Exploring CSS Transformations</h1>
+        <div class="rotate">
+            <p class="icon">🔁</p>
+            <p class="root">Rotate</p>
+        </div>
+
+        <div class="scale">
+            <p class="icon">📏</p>
+            <p class="root">Scale</p>
+        </div>
+
+        <div class="translate">
+            <p class="icon">➡️</p>
+            <p class="root">Translate</p>
+        </div>
+
+        <div class="skew">
+            <p class="icon">↗️</p>
+            <p class="root">Skew</p>
+
+        </div>
+    </div>
+</body>
+</html>
+ 

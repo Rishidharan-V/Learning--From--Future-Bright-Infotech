@@ -1,0 +1,85 @@
+<!-- ajay-pricing-plan.html -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Rishi's Pricing Plan</title>
+  <style>
+    body {
+      font-family: 'Arial', sans-serif;
+      background-color: #f4f4f4;
+      padding: 40px;
+      color: #333;
+    }
+    .plan{
+      border: 2px solid rgb(70, 8, 228);
+      width: 250px;
+      height: 220px;
+      float: left;
+      text-align: center;
+      border-radius: 5px;  
+      background-color: white;       
+    }
+    h1,h2 {
+      color: blue;
+    }
+    .select-btn{
+      padding: 10px;
+      border-radius: 5px;
+      color: white;
+      background-color: skyblue;
+      margin-right: 10px;
+      flex-direction: row;   
+    }
+    .price{
+      color: rgb(5, 184, 255);
+    }
+    .features{
+      margin-right: 30px;   
+      list-style-type: none;
+
+   
+    }
+    
+    .pricing-section{
+      display: flex;
+      gap: 20px;
+    }
+  
+  </style>
+</head>
+<body>
+  <div class="pricing-section">
+    <div class="plan">
+      <h2>Basic</h2>
+      <div class="price">₹999/mo</div>
+      <ul class="features">
+        <li>1 User</li>
+        <li>10 Projects</li>
+        <li>Email Support</li>
+      </ul>
+      <button class="select-btn">Choose Plan</button>
+    </div>
+    <div class="plan">
+      <h2>Pro</h2>
+      <div class="price">₹1999/mo</div>
+      <ul class="features">
+        <li>5 Users</li> 
+        <li>Unlimited Projects</li> 
+        <li>Priority Support</li> 
+      </ul>
+      <button class="select-btn">Choose Plan</button>
+    </div>
+    <div class="plan">
+      <h2>Enterprise</h2>
+      <div class="price">₹4999/mo</div>
+      <ul class="features">
+        <li>Unlimited Users</li>
+        <li>Unlimited Projects</li>
+        <li>24/7 Support</li>
+      </ul>
+      <button class="select-btn">Choose Plan</button>
+    </div>
+  </div>
+</body>
+</html>

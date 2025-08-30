@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Table</title>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
+    />
+    <style>
+      h1 {
+        text-align: center;
+        color: orange;
+      }
+      h2 {
+        text-align: center;
+        color: red;
+      }
+      thead {
+        background-color: orangered;
+      }
+      table {
+        border: 1px solid black;
+        width: 100%;
+        border-collapse: collapse;
+        margin: 0px;
+      }
+      th,
+      td {
+        border: 1px solid black;
+        border-collapse: collapse;
+        height: 40px;
+        text-align: center;
+        width: 300px;
+      }
+      tr:hover {
+        background-color: rgb(255, 0, 183);
+      }
+      tbody tr:nth-child(even) {
+        background-color: rgb(250, 198, 27);
+      }
+      body {
+        background-color: rgb(227, 233, 241);
+        margin: 90px;
+      }
+    </style>
+  </head>
+  <body>
+    <table>
+      <h1>Popular Indian Dishes</h1>
+      <h2>Delicious Dishes From India</h2>
+      <thead>
+        <th>Dish</th>
+        <th>Region</th>
+        <th>Type</th>
+        <th>Icon</th>
+      </thead>
+
+      <tbody>
+        <tr>
+          <td>Biriyani</td>
+          <td>Hyderabad</td>
+          <td>Main Course</td>
+          <td><img src="biriyani.png" alt="" height="20px" /></td>
+        </tr>
+
+        <tr>
+          <td>Dosa</td>
+          <td>South India</td>
+          <td>Breakfast</td>
+          <td><img src="dosa.jpeg" alt="" height="20px" /></td>
+        </tr>
+        <tr>
+          <td>Chole Bhature</td>
+          <td>Punjab</td>
+          <td>Snack</td>
+          <td><img src="Chole Bhature.png" alt="" height="20px" /></td>
+        </tr>
+        <tr>
+          <td>Rsagulla</td>
+          <td>Bengal</td>
+          <td>Dessert</td>
+          <td><img src="rasagulla.jpeg" alt="" height="20px" /></td>
+        </tr>
+        <tr>
+          <td>Panni Puri</td>
+          <td>Mumbai</td>
+          <td>Street Food</td>
+          <td><img src="panipori.png" alt="" height="20px" /></td>
+        </tr>
+      </tbody>
+    </table>
+  </body>
+</html>
